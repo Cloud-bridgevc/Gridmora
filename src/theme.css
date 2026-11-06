@@ -1,0 +1,20 @@
+/* Gridmora theme */
+:root {
+  --pp-accent: #1d4ed8;
+  --pp-accent-hover: #1e40af;
+  --pp-accent2: #ffd23f;
+  --pp-ink: #0f172a;
+  --pp-muted: #4b5568;
+  --pp-paper: #f5f7fa;
+  --pp-tint: #e9eef6;
+  --pp-card: #ffffff;
+  --pp-line: #d8dfea;
+  --pp-dark: #0b1426;
+  --pp-dark-ink: #eef3fb;
+  --pp-serif: 'Sora', system-ui, sans-serif;
+  --pp-sans: 'Inter', system-ui, sans-serif;
+  --pp-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --pp-display-weight: 600;
+}
+h1, h2, .pp h2, .pp-manifesto-text, .pp-timeline h3 { font-weight: 600; letter-spacing: -.045em; }
+.pp-letter-body { font-family: var(--pp-sans); font-size: clamp(17px, 1.5vw, 20px); }
